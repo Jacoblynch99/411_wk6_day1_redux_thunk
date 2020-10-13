@@ -4,7 +4,7 @@ import Home from './containers/Home'
 import About from './components/About'
 import Car from './containers/Car'
 import Dashboard from './containers/Dashboard'
-import Import from './components/Import'
+import Import from './containers/Import'
 
 const Router = () => {
     return (
@@ -15,7 +15,7 @@ const Router = () => {
             <Route path="/dashboard" component={Dashboard} />
             <Route path="/import" component={Import} />
         </Switch>
-    );
-};
+    )
+}
 
-export default Router;
+export default Router
